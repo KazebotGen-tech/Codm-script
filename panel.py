@@ -118,7 +118,7 @@ def token():
             if elapsed < COOLDOWN:
                 return jsonify({
                     "status":"cooldown",
-                    "redirect":"https://kazehayamodz-main-page-90wu.onrender.com"
+                    "redirect":"https://kazefreekeysite.onrender.com"
                 })
 
     token_id = str(uuid.uuid4())
